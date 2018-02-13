@@ -6,7 +6,7 @@ class Auxiliar():
         self.verbo = verbo
         self.pessoas = ["eu", "tu", "ela/ele", "nós", "vós", "elas/eles"]
 
-        if self.sufixo not in ['ar','er','ir']:
+        if self.sufixo not in ['ar','er','ir','or']: # Mas e o verbo "pôr" (por exemplo) ? http://aprenderportugues.com.br/verbos-terminados/  
             print("Sua palavra não é um verbo")
 
     def resposta(self, irregulares, sufixos):
